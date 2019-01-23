@@ -1,24 +1,13 @@
-# README
+# Basic Rails API-only app
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+* Ruby version: 2.4.4
 
-Things you may want to cover:
+### Dev server setup
+  1. bundle install
+  2. bundle exec rake db:create
+  3. bundle exec rake db:migrate
+  3. bundle exec rake db:seed
+  4. rails s (access via localhost:3000 )
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+### postman collection
+   https://drive.google.com/open?id=1bpV6xhJqT7_OCYtdyz-TT_mGyVVmI-QP
